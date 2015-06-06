@@ -9,6 +9,7 @@
 (depends-on "git-commit-mode")
 (depends-on "git-rebase-mode")
 (depends-on "magit")
+(depends-on "multiple-cursors")
 (depends-on "neotree")
 (depends-on "package-build")
 (depends-on "pallet")
