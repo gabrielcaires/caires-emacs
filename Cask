@@ -3,6 +3,7 @@
 
 (depends-on "cask")
 (depends-on "dash")
+(depends-on "editorconfig")
 (depends-on "epl")
 (depends-on "f")
 (depends-on "git-commit-mode")
