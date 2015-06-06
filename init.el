@@ -1,13 +1,7 @@
-(require 'package)
-(require 'cl)
-(add-to-list 'package-archives
-	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(add-to-list 'package-archives
-	     '("marmalade" . "http://marmalade-repo.org/packages/") t)
-(package-initialize)
-
-;; Install plugins
-(load "~/.emacs.d/plugins.el")
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+(require 'pallet)
+(pallet-mode t)
 
 ;; Setup Editor
 (load "~/.emacs.d/editor.el")
