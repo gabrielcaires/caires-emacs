@@ -20,5 +20,3 @@ Start de installation:
 $ cd ~/.emacs.d/
 $ cask install
 ````
-
-
