@@ -1,5 +1,6 @@
-(source melpa)
 (source marmalade)
+(source melpa)
+
 (depends-on "cask")
 (depends-on "dash")
 (depends-on "editorconfig")
@@ -16,3 +17,5 @@
 (depends-on "web-mode")
 (depends-on "whitespace-cleanup-mode")
 (depends-on "yasnippet")
+(depends-on "zenburn")
+(depends-on "zenburn-theme")

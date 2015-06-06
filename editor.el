@@ -5,7 +5,7 @@
 (setq linum-format "%4d \u2502 ")
 
 ;; Menu && toolbar
-(toggle-scroll-bar -1) 
+(toggle-scroll-bar -1)
 (menu-bar-mode -1)
 
 ;; Initial Startup
@@ -18,3 +18,6 @@
 
 ;; Remove white space
 (add-hook 'before-save-hook 'whitespace-cleanup)
+
+;; Theme
+(load-theme 'zenburn t)
