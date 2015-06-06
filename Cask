@@ -15,4 +15,5 @@
 (depends-on "s")
 (depends-on "shut-up")
 (depends-on "web-mode")
+(depends-on "whitespace-cleanup-mode")
 (depends-on "yasnippet")

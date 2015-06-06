@@ -15,3 +15,6 @@
 (setq c-basic-offset 4) ; indents 4 chars
 (setq tab-width 4)          ; and 4 char wide for TAB
 (setq indent-tabs-mode nil) ; And force use of spaces
+
+;; Remove white space
+(add-hook 'before-save-hook 'whitespace-cleanup)
