@@ -11,6 +11,8 @@
   (highlight-indentation-mode 1)
   )
 
-
+(use-package indent-guide
+  :config
+  (indent-guide-global-mode))
 
 (provide 'ui)
