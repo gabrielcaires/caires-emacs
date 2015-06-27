@@ -16,7 +16,7 @@
 	  (propertize (make-string (- w (length (number-to-string line))) ?0)
 		      'face 'linum)
 	  (propertize (number-to-string line) 'face 'linum)
-	   "\u2502"
+	  "\u2502"
 	  )))
      (setq linum-format 'linum-format-func)))
 
@@ -24,6 +24,8 @@
 (toggle-scroll-bar -1)
 (menu-bar-mode -1)
 
+;; delete the selection with a keypress
+(delete-selection-mode t)
 
 ;; Battery
 (display-battery-mode 1)
@@ -84,5 +86,8 @@
 
 (global-hl-line-mode 1)
 (set-face-background 'hl-line "#330")
+
+;; revert buffers automatically when underlying files are changed externally
+(global-auto-revert-mode t)
 
 (provide 'system)

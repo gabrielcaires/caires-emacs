@@ -1,5 +1,6 @@
 (source marmalade)
 (source melpa)
+(source gnu)
 
 (depends-on "cask")
 (depends-on "dash")

@@ -1,11 +1,12 @@
 (defun init-ruby ()
   (message "Initialize ruby module")
+
   ;; Rake files are ruby, too, as are gemspecs, rackup files, and gemfiles.
   (use-package enh-ruby-mode
     :interpreter "ruby"
     :defer 2
     :mode ("\\.rake\\'" . enh-ruby-mode)
-    :mode ("Rakefile\\'" . enh-ruby-mode)
+    :mode ("\\Rakefile\\'" . enh-ruby-mode)
     :mode ("\\.gemspec\\'" . enh-ruby-mode)
     :mode ("\\.ru\\'" . enh-ruby-mode)
     :mode ("Gemfile\\'" . enh-ruby-mode)
@@ -22,7 +23,6 @@
     :mode ("Berksfile\\'" . enh-ruby-mode)
     :mode ("Appraisals\\'" . enh-ruby-mode)
     :mode ("\\.rb\\'" . enh-ruby-mode)
-
     :init
     (add-hook 'after-init-hook 'inf-ruby-switch-setup)
     :config
