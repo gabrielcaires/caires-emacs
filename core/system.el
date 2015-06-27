@@ -1,7 +1,24 @@
 ;; --  Editor configurations
 ;; Linum
 (global-linum-mode t)
-(setq linum-format "%4d \u2502 ")
+
+(eval-after-load 'linum
+  '(progn
+     (defface linum-leading-zero
+       `((t :inherit 'linum
+	    :foreground ,(face-attribute 'linum :background nil t)))
+       "Face for displaying leading zeroes for line numbers in display margin."
+       :group 'linum)
+     (defun linum-format-func (line)
+       (let ((w (length
+		 (number-to-string (count-lines (point-min) (point-max))))))
+	 (concat
+	  (propertize (make-string (- w (length (number-to-string line))) ?0)
+		      'face 'linum)
+	  (propertize (number-to-string line) 'face 'linum)
+	   "\u2502"
+	  )))
+     (setq linum-format 'linum-format-func)))
 
 ;; Menu && toolbar
 (toggle-scroll-bar -1)
