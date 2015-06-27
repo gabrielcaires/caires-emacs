@@ -14,7 +14,7 @@ Clone this repo:
 $ git clone https://github.com/gabrielcaires/caires-emacs ~/.emacs.d
 ````
 
-Start de installation:
+Start the installation:
 
 ````
 $ cd ~/.emacs.d/
