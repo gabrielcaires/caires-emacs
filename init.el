@@ -12,8 +12,8 @@
   (use-package system))
 
 (defun load-modules ()
-  (use-package ruby)
-  (use-package ui))
+  (use-package ui)
+  (use-package ruby))
 
 (defun init ()
   (setup)
