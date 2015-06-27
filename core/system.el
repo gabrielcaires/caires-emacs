@@ -7,6 +7,10 @@
 (toggle-scroll-bar -1)
 (menu-bar-mode -1)
 
+
+;; Battery
+(display-battery-mode 1)
+
 ;; mode line settings
 (line-number-mode t)
 (column-number-mode t)
@@ -63,4 +67,5 @@
 
 (global-hl-line-mode 1)
 (set-face-background 'hl-line "#330")
-(provide 'editor)
+
+(provide 'system)
