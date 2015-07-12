@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/Projects/walmart/hermes-carriers/")
+("~/Projects/walmart/tippler/" "~/.emacs.d/" "~/Projects/walmart/hermes_api_stub/" "~/Projects/walmart/hermes-carriers/" "~/Projects/walmart/atlantico-api-stub/" "~/Projects/walmart/wm-app-tippler/" "~/.yadr/" "~/Projects/walmart/tippler-stub/" "~/Projects/walmart/hermes/" "~/Projects/walmart/delibird/")

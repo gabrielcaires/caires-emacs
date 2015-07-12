@@ -12,12 +12,15 @@
   (require 'use-package)
   (use-package system))
 
+;;; TODO Change all names to {something}-config
 (defun load-modules ()
-  (use-package ui)
+  (use-package ui-config)
   (use-package project)
   (use-package programming)
   (use-package ruby)
   (use-package coffee)
+  (use-package web)
+  (use-package evil-config)
   (use-package angularjs)
   )
 
@@ -27,17 +30,3 @@
   (load-packages)
   (load-modules))
 (init)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(coffee-tab-width 2)
- '(flycheck-display-errors-function (function flycheck-pos-tip-error-messages))
- '(paradox-github-token t))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )

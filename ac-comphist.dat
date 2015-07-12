@@ -1,0 +1,30 @@
+((("helm-projectile" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("CARRIER_SERVICE_CONF" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("new" .
+   [1 0 0])
+  ("HttpStubClient" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  (":hermes_stub_client" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("let" .
+   [1 0 0])
+  ("GET" .
+   [0 0 1])
+  ("describe" .
+   [1 0 1 0 0 0 0 1])
+  ("Faker::Number" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("address" .
+   [0 0 0 1 0 0 0])
+  ("subject" .
+   [0 0 2 1 0 0 0])
+  ("defvar" .
+   [0 0 0 1 0 0])
+  ("intern" .
+   [0 0 0 0 1 0])
+  ("init-programming" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("defun*" .
+   [0 0 0 0 0 1])))
