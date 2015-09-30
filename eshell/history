@@ -1,0 +1,43 @@
+../controllers/
+../controllers/
+cd ../../.bundle/
+../
+git add -p
+git add -m '|PORTAL 455| Use before_action to control permission'
+git commit -m '|PORTAL 455| Use before_action to control permission'
+exit
+tmate show-message
+exit
+docker-compose run bundle exec bash
+exit
+../../controllers/
+cd ../
+cd ..
+git add -p
+exit
+../../
+cd tippler-stub/
+bundle exec ruby stub.rb
+exit
+../
+ruby stub.rb 
+ruby stub.rb 
+ruby stub.rb 
+ruby stub.rb 
+WITH_DATASET=30 ruby stub.rb  
+ps
+kill 21145
+kill -921145
+kill -9 21145
+kill 9 21145
+ps
+kill 9 21145
+kill -f 21145
+kill  21145
+kill  21145
+ps
+kill -9 21145
+kill 21145 -9
+ps -ef | grep 21145 
+ps -ef | grep 21145
+ps
